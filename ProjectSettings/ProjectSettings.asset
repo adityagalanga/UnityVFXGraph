@@ -146,6 +146,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.GAP.ThunderLord_VFXCourse
     Standalone: com.GAP.ThunderLordVFXCourse
   buildNumber:
     Standalone: 0
