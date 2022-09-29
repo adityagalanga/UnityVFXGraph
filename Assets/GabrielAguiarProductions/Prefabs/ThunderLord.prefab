@@ -2937,7 +2937,7 @@ MonoBehaviour:
       VFXPrefab: {fileID: 7223566964306929061, guid: ed657d384a88be04fb08f5c0422b0779,
         type: 3}
       VFXFirePoint: {fileID: 6874246336792015344}
-      VFXParent: {fileID: 0}
+      VFXParent: {fileID: 6874246336792015344}
       VFXOffset: {x: 0, y: 0, z: 0}
       spawnWithRightMouseButton: 0
       alternateBetweenFirePoints: 0
@@ -2958,8 +2958,9 @@ MonoBehaviour:
       rotateToDestination: 1
       delayToDestroy: 10
     markerType: 0
-    VFXMarker: {fileID: 0}
-    VFXMarkerPosition: {fileID: 0}
+    VFXMarker: {fileID: 8695482818484389111, guid: f53f730d57c12c24098cd0f8d67c623e,
+      type: 3}
+    VFXMarkerPosition: {fileID: 2576133042702926851}
     shake: 1
     delays:
     - 0
