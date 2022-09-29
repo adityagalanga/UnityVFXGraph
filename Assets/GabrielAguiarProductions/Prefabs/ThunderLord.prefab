@@ -1284,7 +1284,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2868473926995341685}
-  m_LocalRotation: {x: -0.019763302, y: 0.974188, z: -0.20413658, w: -0.09431515}
+  m_LocalRotation: {x: -0.019763311, y: 0.974188, z: -0.20413658, w: -0.09431519}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2921,44 +2921,45 @@ MonoBehaviour:
     projectileSpeed: 18
     rotateOnlyY: 1
     VFXAsset:
-    - VFXName: WarmUp
-      VFXPrefab: {fileID: 4267678183143059815, guid: 40817389188f00f4998f64bb9e11d471,
-        type: 3}
-      VFXFirePoint: {fileID: 6874246336792015344}
-      VFXParent: {fileID: 0}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX:
-      - {fileID: 8300000, guid: 78d4e3a2b2e29f54a890afcd494784b6, type: 3}
-      - {fileID: 8300000, guid: 76064d0f79af69b4d91d15d4afd8a8c6, type: 3}
-      - {fileID: 8300000, guid: 7f9d29c56436397478b0d046ab7a77de, type: 3}
-      rotateToDestination: 0
-      delayToDestroy: 3
-    - VFXName: Hammer Glow
-      VFXPrefab: {fileID: 4267678183143059815, guid: e7f4e3ff56c67df448de76cba8706b86,
+    - VFXName: HammerGlow
+      VFXPrefab: {fileID: 7645017045895264228, guid: 5e48e84fbbc59ef4b9251e27ce2bfa7c,
         type: 3}
       VFXFirePoint: {fileID: 9188418851839074437}
       VFXParent: {fileID: 9188418851839074437}
       VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
       SFX: []
       rotateToDestination: 0
       delayToDestroy: 2
+    - VFXName: Warm Up
+      VFXPrefab: {fileID: 7223566964306929061, guid: ed657d384a88be04fb08f5c0422b0779,
+        type: 3}
+      VFXFirePoint: {fileID: 6874246336792015344}
+      VFXParent: {fileID: 0}
+      VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
+      SFX: []
+      rotateToDestination: 0
+      delayToDestroy: 3
     - VFXName: Projectile Hammer
-      VFXPrefab: {fileID: 7798872934552832465, guid: 8c354544c62132e4f8bd4c546bf3f608,
+      VFXPrefab: {fileID: 5410505307772658136, guid: 2a809d6779bf5cf4f9bd4e3607ed393e,
         type: 3}
       VFXFirePoint: {fileID: 4559990731357043801}
       VFXParent: {fileID: 0}
       VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
       SFX: []
       rotateToDestination: 1
       delayToDestroy: 10
     markerType: 0
-    VFXMarker: {fileID: 3821875730440347379, guid: b36667a1c35e48f4d9e41793e17b4420,
-      type: 3}
-    VFXMarkerPosition: {fileID: 2576133042702926851}
-    VFXHandPrefab: {fileID: 0}
-    parentHandFXToFirePoint: 0
-    isHandFXBothHands: 0
-    alternateFirePoint: {fileID: 0}
+    VFXMarker: {fileID: 0}
+    VFXMarkerPosition: {fileID: 0}
     shake: 1
     delays:
     - 0
@@ -2982,234 +2983,6 @@ MonoBehaviour:
     - 0
     - 0.3
     chromaticRate:
-    - 0
-    - 0
-    - 0.05
-  - AbilityName: EARTHSHATTER
-    abilityType: 0
-    cooldown: 1
-    freezeTime: 3
-    projectileSpeed: 0
-    rotateOnlyY: 1
-    VFXAsset:
-    - VFXName: Muzzle
-      VFXPrefab: {fileID: 4845186727159146465, guid: e7647d95613754a458bc2304a215e3fb,
-        type: 3}
-      VFXFirePoint: {fileID: 4559990731357043801}
-      VFXParent: {fileID: 4559990731357043801}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX:
-      - {fileID: 8300000, guid: fae536731986e444c88d5f82fd3bc35b, type: 3}
-      rotateToDestination: 0
-      delayToDestroy: 3
-    - VFXName: Hammer Glow
-      VFXPrefab: {fileID: 4267678183143059815, guid: e7f4e3ff56c67df448de76cba8706b86,
-        type: 3}
-      VFXFirePoint: {fileID: 9188418851839074437}
-      VFXParent: {fileID: 9188418851839074437}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX:
-      - {fileID: 8300000, guid: e4f0a1ce6fe26824abb2c8d90171e58e, type: 3}
-      - {fileID: 8300000, guid: c5f9fb4b41925624db69caa3443458ec, type: 3}
-      - {fileID: 8300000, guid: 72059755dd4c8dd4493ff9ecc3910783, type: 3}
-      rotateToDestination: 0
-      delayToDestroy: 2
-    - VFXName: Earthshatter
-      VFXPrefab: {fileID: 292764025692035223, guid: 11d11b26f60470944918b60a43f8c09b,
-        type: 3}
-      VFXFirePoint: {fileID: 0}
-      VFXParent: {fileID: 0}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX: []
-      rotateToDestination: 1
-      delayToDestroy: 4
-    markerType: 0
-    VFXMarker: {fileID: 8527118402344030627, guid: 4e580e3dc3dbed347ad72157205058e3,
-      type: 3}
-    VFXMarkerPosition: {fileID: 2576133042702926851}
-    VFXHandPrefab: {fileID: 0}
-    parentHandFXToFirePoint: 0
-    isHandFXBothHands: 0
-    alternateFirePoint: {fileID: 0}
-    shake: 1
-    delays:
-    - 0
-    - 0
-    - 1.5
-    durations:
-    - 0
-    - 0
-    - 0.6
-    amplitudes:
-    - 0
-    - 0
-    - 2.75
-    frequencies:
-    - 0
-    - 0
-    - 0.15
-    chromaticAberration: 1
-    chromaticGoal:
-    - 0
-    - 0
-    - 0.4
-    chromaticRate:
-    - 0
-    - 0
-    - 0.05
-  - AbilityName: THUNDER PUNCH
-    abilityType: 0
-    cooldown: 1
-    freezeTime: 2
-    projectileSpeed: 0
-    rotateOnlyY: 1
-    VFXAsset:
-    - VFXName: Muzzle
-      VFXPrefab: {fileID: 4845186727159146465, guid: e7647d95613754a458bc2304a215e3fb,
-        type: 3}
-      VFXFirePoint: {fileID: 6874246336792015344}
-      VFXParent: {fileID: 6874246336792015344}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX:
-      - {fileID: 8300000, guid: 8d915231c4a291942abd056172081710, type: 3}
-      - {fileID: 8300000, guid: 0ecb1773fd0bda0428c36b822b5fbeab, type: 3}
-      - {fileID: 8300000, guid: 677ee4131f95e5d4da215a784a5d9ed9, type: 3}
-      rotateToDestination: 0
-      delayToDestroy: 2
-    - VFXName: Hammer Glow
-      VFXPrefab: {fileID: 4267678183143059815, guid: e7f4e3ff56c67df448de76cba8706b86,
-        type: 3}
-      VFXFirePoint: {fileID: 9188418851839074437}
-      VFXParent: {fileID: 9188418851839074437}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX: []
-      rotateToDestination: 0
-      delayToDestroy: 3
-    - VFXName: Hammer Punch
-      VFXPrefab: {fileID: 5375934897263269918, guid: ced1ea3e8a46fd146953255a4a47110d,
-        type: 3}
-      VFXFirePoint: {fileID: 4559990731357043801}
-      VFXParent: {fileID: 0}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX: []
-      rotateToDestination: 1
-      delayToDestroy: 4
-    markerType: 0
-    VFXMarker: {fileID: 3821875730440347379, guid: e37af6926856d66429af76a10c7b62ee,
-      type: 3}
-    VFXMarkerPosition: {fileID: 2576133042702926851}
-    VFXHandPrefab: {fileID: 0}
-    parentHandFXToFirePoint: 0
-    isHandFXBothHands: 0
-    alternateFirePoint: {fileID: 0}
-    shake: 1
-    delays:
-    - 0
-    - 0
-    - 1
-    durations:
-    - 0
-    - 0
-    - 0.5
-    amplitudes:
-    - 0
-    - 0
-    - 2.2
-    frequencies:
-    - 0
-    - 0
-    - 0.1
-    chromaticAberration: 1
-    chromaticGoal:
-    - 0
-    - 0
-    - 0.3
-    chromaticRate:
-    - 0
-    - 0
-    - 0.05
-  - AbilityName: THUNDER STORM
-    abilityType: 0
-    cooldown: 2
-    freezeTime: 2.3
-    projectileSpeed: 0
-    rotateOnlyY: 1
-    VFXAsset:
-    - VFXName: Hammer Glow
-      VFXPrefab: {fileID: 4267678183143059815, guid: e7f4e3ff56c67df448de76cba8706b86,
-        type: 3}
-      VFXFirePoint: {fileID: 9188418851839074437}
-      VFXParent: {fileID: 9188418851839074437}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX:
-      - {fileID: 8300000, guid: 145ccb7eead83124d963dd3338e5dd5a, type: 3}
-      - {fileID: 8300000, guid: 237d7bf40542c2946b1e4b8ff8417f3e, type: 3}
-      rotateToDestination: 0
-      delayToDestroy: 3
-    - VFXName: Hammer Muzzle
-      VFXPrefab: {fileID: 4267678183143059815, guid: 40817389188f00f4998f64bb9e11d471,
-        type: 3}
-      VFXFirePoint: {fileID: 6874246336792015344}
-      VFXParent: {fileID: 0}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX: []
-      rotateToDestination: 0
-      delayToDestroy: 3
-    - VFXName: Lightning
-      VFXPrefab: {fileID: 4192876899054699397, guid: 2b01b71fe5918a748ac4f8d85d658525,
-        type: 3}
-      VFXFirePoint: {fileID: 4559990731357043801}
-      VFXParent: {fileID: 0}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX: []
-      rotateToDestination: 0
-      delayToDestroy: 3
-    - VFXName: Thunderstorm
-      VFXPrefab: {fileID: 4192876899054699397, guid: 71677488928f3934a836a105ece50955,
-        type: 3}
-      VFXFirePoint: {fileID: 0}
-      VFXParent: {fileID: 0}
-      VFXOffset: {x: 0, y: 0, z: 0}
-      SFX: []
-      rotateToDestination: 0
-      delayToDestroy: 10
-    markerType: 1
-    VFXMarker: {fileID: 3821875730440347379, guid: 84949f044ef881942a1b419c3df3d5e3,
-      type: 3}
-    VFXMarkerPosition: {fileID: 2576133042702926851}
-    VFXHandPrefab: {fileID: 0}
-    parentHandFXToFirePoint: 0
-    isHandFXBothHands: 0
-    alternateFirePoint: {fileID: 0}
-    shake: 1
-    delays:
-    - 0.3
-    - 0.1
-    - 0
-    - 1.1
-    durations:
-    - 0.2
-    - 0
-    - 0
-    - 0.4
-    amplitudes:
-    - 1.5
-    - 0
-    - 0
-    - 3
-    frequencies:
-    - 0.1
-    - 0
-    - 0
-    - 0.2
-    chromaticAberration: 1
-    chromaticGoal:
-    - 0.25
-    - 0
-    - 0
-    - 0.5
-    chromaticRate:
-    - 0.05
     - 0
     - 0
     - 0.05
@@ -4329,7 +4102,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: ba8c6386e33986a4bac7f6f64f6cfbcc, type: 2}
-  - {fileID: 2100000, guid: 462c4752ac67eef44958d6414ebbf2d8, type: 2}
+  - {fileID: 2100000, guid: b5898b5c5d3c1884897176939e18346b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4406,7 +4179,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8461040581616016086}
-  m_LocalRotation: {x: -0.022746647, y: 0.9672186, z: -0.2349517, w: -0.09364045}
+  m_LocalRotation: {x: -0.02274664, y: 0.9672186, z: -0.2349517, w: -0.0936404}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
