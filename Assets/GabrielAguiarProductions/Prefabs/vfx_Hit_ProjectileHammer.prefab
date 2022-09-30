@@ -115,7 +115,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.7
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1369,7 +1369,7 @@ ParticleSystem:
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 0
+        ctime0: 42598
         ctime1: 65535
         ctime2: 0
         ctime3: 0
@@ -1377,7 +1377,7 @@ ParticleSystem:
         ctime5: 0
         ctime6: 0
         ctime7: 0
-        atime0: 0
+        atime0: 42598
         atime1: 65535
         atime2: 0
         atime3: 0
@@ -4948,7 +4948,13 @@ VisualEffect:
     m_Vector3f:
       m_Array: []
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 5.3403134, y: 3.2527912, z: 0, w: 1}
+        m_Name: Hammer Color
+        m_Overridden: 1
+      - m_Value: {x: 3.9105134, y: 1.1874857, z: 0, w: 1}
+        m_Name: Lightning Color
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
@@ -4982,6 +4988,8 @@ VFXRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
