@@ -55,12 +55,12 @@ VisualEffect:
       m_Array: []
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 5.612487, y: 2.1074555, z: 0, w: 1}
+      - m_Value: {x: 3.349745, y: 2.1740067, z: 0, w: 1}
         m_Name: Hammer Color
-        m_Overridden: 1
-      - m_Value: {x: 5.1798944, y: 1.9526305, z: 0, w: 1}
+        m_Overridden: 0
+      - m_Value: {x: 3.9533494, y: 1.2004936, z: 0, w: 1}
         m_Name: Lightning Color
-        m_Overridden: 1
+        m_Overridden: 0
     m_Uint:
       m_Array: []
     m_Int:
@@ -197,7 +197,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   impactVFX: {fileID: 5085846314339235596, guid: 9bfdd8e5e1ddd0f4fa1c808676ca1bf8,
     type: 3}
-  impactSFX: []
+  impactSFX:
+  - {fileID: 8300000, guid: 8b4097efc3e365045995f7f691ed4aae, type: 3}
+  - {fileID: 8300000, guid: b44e939dd8c70714182fdac883c2fb10, type: 3}
 --- !u!1 &7685359749175164526
 GameObject:
   m_ObjectHideFlags: 0
