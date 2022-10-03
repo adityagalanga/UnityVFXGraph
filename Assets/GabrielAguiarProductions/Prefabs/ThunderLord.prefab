@@ -1284,7 +1284,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2868473926995341685}
-  m_LocalRotation: {x: -0.019763311, y: 0.974188, z: -0.20413658, w: -0.09431519}
+  m_LocalRotation: {x: -0.019763302, y: 0.974188, z: -0.20413658, w: -0.09431515}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2930,7 +2930,10 @@ MonoBehaviour:
       spawnWithRightMouseButton: 0
       alternateBetweenFirePoints: 0
       alternateFirePoint: {fileID: 0}
-      SFX: []
+      SFX:
+      - {fileID: 8300000, guid: 78d4e3a2b2e29f54a890afcd494784b6, type: 3}
+      - {fileID: 8300000, guid: 76064d0f79af69b4d91d15d4afd8a8c6, type: 3}
+      - {fileID: 8300000, guid: 7f9d29c56436397478b0d046ab7a77de, type: 3}
       rotateToDestination: 0
       delayToDestroy: 2
     - VFXName: Warm Up
@@ -2983,6 +2986,79 @@ MonoBehaviour:
     - 0
     - 0
     - 0.3
+    chromaticRate:
+    - 0
+    - 0
+    - 0.05
+  - AbilityName: EARTH SHATTER
+    abilityType: 0
+    cooldown: 1
+    freezeTime: 3
+    projectileSpeed: 0
+    rotateOnlyY: 1
+    VFXAsset:
+    - VFXName: Muzzle
+      VFXPrefab: {fileID: 7223566964306929061, guid: ed657d384a88be04fb08f5c0422b0779,
+        type: 3}
+      VFXFirePoint: {fileID: 6874246336792015344}
+      VFXParent: {fileID: 6874246336792015344}
+      VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
+      SFX: []
+      rotateToDestination: 0
+      delayToDestroy: 3
+    - VFXName: HammerGlow
+      VFXPrefab: {fileID: 7645017045895264228, guid: 5e48e84fbbc59ef4b9251e27ce2bfa7c,
+        type: 3}
+      VFXFirePoint: {fileID: 9188418851839074437}
+      VFXParent: {fileID: 9188418851839074437}
+      VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
+      SFX: []
+      rotateToDestination: 0
+      delayToDestroy: 2
+    - VFXName: EarthShatter
+      VFXPrefab: {fileID: 585769606663256286, guid: 766e5c24e5451aa43888c6d00845f649,
+        type: 3}
+      VFXFirePoint: {fileID: 0}
+      VFXParent: {fileID: 0}
+      VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
+      SFX: []
+      rotateToDestination: 1
+      delayToDestroy: 5
+    markerType: 0
+    VFXMarker: {fileID: 8695482818484389111, guid: f53f730d57c12c24098cd0f8d67c623e,
+      type: 3}
+    VFXMarkerPosition: {fileID: 2576133042702926851}
+    shake: 1
+    delays:
+    - 0
+    - 0
+    - 1.5
+    durations:
+    - 0
+    - 0
+    - 0.7
+    amplitudes:
+    - 0
+    - 0
+    - 3
+    frequencies:
+    - 0
+    - 0
+    - 0.2
+    chromaticAberration: 1
+    chromaticGoal:
+    - 0
+    - 0
+    - 0.4
     chromaticRate:
     - 0
     - 0
@@ -4180,7 +4256,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8461040581616016086}
-  m_LocalRotation: {x: -0.02274664, y: 0.9672186, z: -0.2349517, w: -0.0936404}
+  m_LocalRotation: {x: -0.022746647, y: 0.9672186, z: -0.2349517, w: -0.09364045}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
