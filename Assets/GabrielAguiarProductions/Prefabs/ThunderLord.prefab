@@ -2998,7 +2998,7 @@ MonoBehaviour:
     rotateOnlyY: 1
     VFXAsset:
     - VFXName: Muzzle
-      VFXPrefab: {fileID: 7223566964306929061, guid: ed657d384a88be04fb08f5c0422b0779,
+      VFXPrefab: {fileID: 8948481919472269860, guid: 6efca502fef094a48be102c671ff7032,
         type: 3}
       VFXFirePoint: {fileID: 6874246336792015344}
       VFXParent: {fileID: 6874246336792015344}
@@ -3006,9 +3006,10 @@ MonoBehaviour:
       spawnWithRightMouseButton: 0
       alternateBetweenFirePoints: 0
       alternateFirePoint: {fileID: 0}
-      SFX: []
+      SFX:
+      - {fileID: 8300000, guid: fae536731986e444c88d5f82fd3bc35b, type: 3}
       rotateToDestination: 0
-      delayToDestroy: 3
+      delayToDestroy: 2.5
     - VFXName: HammerGlow
       VFXPrefab: {fileID: 7645017045895264228, guid: 5e48e84fbbc59ef4b9251e27ce2bfa7c,
         type: 3}
@@ -3018,7 +3019,10 @@ MonoBehaviour:
       spawnWithRightMouseButton: 0
       alternateBetweenFirePoints: 0
       alternateFirePoint: {fileID: 0}
-      SFX: []
+      SFX:
+      - {fileID: 8300000, guid: e4f0a1ce6fe26824abb2c8d90171e58e, type: 3}
+      - {fileID: 8300000, guid: c5f9fb4b41925624db69caa3443458ec, type: 3}
+      - {fileID: 8300000, guid: 72059755dd4c8dd4493ff9ecc3910783, type: 3}
       rotateToDestination: 0
       delayToDestroy: 2
     - VFXName: EarthShatter
@@ -3034,7 +3038,7 @@ MonoBehaviour:
       rotateToDestination: 1
       delayToDestroy: 5
     markerType: 0
-    VFXMarker: {fileID: 8695482818484389111, guid: f53f730d57c12c24098cd0f8d67c623e,
+    VFXMarker: {fileID: 8695482818484389111, guid: c3c7d0ffd4908e5499eb0cb55c9bdeea,
       type: 3}
     VFXMarkerPosition: {fileID: 2576133042702926851}
     shake: 1

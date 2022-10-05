@@ -55,12 +55,12 @@ VisualEffect:
       m_Array: []
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 3.349745, y: 2.1740067, z: 0, w: 1}
+      - m_Value: {x: 3.349745, y: 0.91197246, z: 0.1578414, w: 1}
         m_Name: Hammer Color
-        m_Overridden: 0
-      - m_Value: {x: 3.9533494, y: 1.2004936, z: 0, w: 1}
+        m_Overridden: 1
+      - m_Value: {x: 3.9533494, y: 2.0543785, z: 0, w: 1}
         m_Name: Lightning Color
-        m_Overridden: 0
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
@@ -395,7 +395,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0.9728837, b: 0, a: 1}
+      key0: {r: 0.7490196, g: 0.20392157, b: 0.03529412, a: 1}
       key1: {r: 0, g: 0, b: 0, a: 0}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}

@@ -433,10 +433,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1517.0,
-            "y": 108.0000228881836,
-            "width": 208.00001525878907,
-            "height": 302.0000305175781
+            "x": -1517.0001220703125,
+            "y": 108.00000762939453,
+            "width": 208.0,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -1640,7 +1640,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 30.0,
+    "m_Value": 44.20000076293945,
     "m_DefaultValue": 500.0,
     "m_Labels": []
 }
