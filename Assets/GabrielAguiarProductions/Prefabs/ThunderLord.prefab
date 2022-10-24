@@ -3146,6 +3146,102 @@ MonoBehaviour:
     - 0
     - 0
     - 0.05
+  - AbilityName: THUNDER STORM
+    abilityType: 0
+    cooldown: 2
+    freezeTime: 2.3
+    projectileSpeed: 0
+    rotateOnlyY: 1
+    VFXAsset:
+    - VFXName: Muzzle
+      VFXPrefab: {fileID: 8948481919472269860, guid: 6efca502fef094a48be102c671ff7032,
+        type: 3}
+      VFXFirePoint: {fileID: 6874246336792015344}
+      VFXParent: {fileID: 6874246336792015344}
+      VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
+      SFX:
+      - {fileID: 8300000, guid: 145ccb7eead83124d963dd3338e5dd5a, type: 3}
+      - {fileID: 8300000, guid: 237d7bf40542c2946b1e4b8ff8417f3e, type: 3}
+      rotateToDestination: 0
+      delayToDestroy: 2.5
+    - VFXName: HammerGlow
+      VFXPrefab: {fileID: 7645017045895264228, guid: 5e48e84fbbc59ef4b9251e27ce2bfa7c,
+        type: 3}
+      VFXFirePoint: {fileID: 9188418851839074437}
+      VFXParent: {fileID: 9188418851839074437}
+      VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
+      SFX:
+      - {fileID: 8300000, guid: e4f0a1ce6fe26824abb2c8d90171e58e, type: 3}
+      - {fileID: 8300000, guid: c5f9fb4b41925624db69caa3443458ec, type: 3}
+      - {fileID: 8300000, guid: 72059755dd4c8dd4493ff9ecc3910783, type: 3}
+      rotateToDestination: 0
+      delayToDestroy: 2
+    - VFXName: Lightning
+      VFXPrefab: {fileID: 7136101532459857573, guid: 5c23d956d87e0834b87f10b5e51d1fda,
+        type: 3}
+      VFXFirePoint: {fileID: 4559990731357043801}
+      VFXParent: {fileID: 0}
+      VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
+      SFX: []
+      rotateToDestination: 0
+      delayToDestroy: 5
+    - VFXName: Thunder Storm
+      VFXPrefab: {fileID: 585769606663256286, guid: 45defa8481ccb814f97c16d720026b1e,
+        type: 3}
+      VFXFirePoint: {fileID: 0}
+      VFXParent: {fileID: 0}
+      VFXOffset: {x: 0, y: 0, z: 0}
+      spawnWithRightMouseButton: 0
+      alternateBetweenFirePoints: 0
+      alternateFirePoint: {fileID: 0}
+      SFX: []
+      rotateToDestination: 0
+      delayToDestroy: 10
+    markerType: 1
+    VFXMarker: {fileID: 8695482818484389111, guid: 35dd19e03d28a264f8d1bb657a9f6ae7,
+      type: 3}
+    VFXMarkerPosition: {fileID: 2576133042702926851}
+    shake: 1
+    delays:
+    - 0.3
+    - 0.1
+    - 0
+    - 1.1
+    durations:
+    - 0.2
+    - 0
+    - 0
+    - 0.4
+    amplitudes:
+    - 3
+    - 0
+    - 0
+    - 6
+    frequencies:
+    - 0.2
+    - 0
+    - 0
+    - 0.4
+    chromaticAberration: 1
+    chromaticGoal:
+    - 0.25
+    - 0
+    - 0
+    - 0.5
+    chromaticRate:
+    - 0.05
+    - 0
+    - 0
+    - 0.05
   volume: {fileID: 0}
   impulseSource: {fileID: 6338935760814019098}
 --- !u!82 &5648372928779755364
